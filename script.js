@@ -30,8 +30,8 @@ const pokemon = async function (id) {
 
         dados.forEach(element => {
 
+            // "https://pokeapi.co/api/v2/pokemon/1/"
             const html = `
-            
             <div class="container">
             <h4><b>${element.name}</b></h4>
     
@@ -43,7 +43,6 @@ const pokemon = async function (id) {
     } catch (err) {
         console.error(err)
     }
-
 }
 pokemon();
 
